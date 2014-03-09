@@ -1,0 +1,7 @@
+<h2> Post a tweet </h2>
+
+<%= form_tag post_twitt_path do %>
+<%= text_area_tag :message,nil,placeholder: "short message",maximum: 140,cols: 20,rows: 5  %>
+<br><br>
+<%= submit_tag "Post a twitt" %>
+<% end  %> 

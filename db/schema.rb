@@ -29,6 +29,8 @@ ActiveRecord::Schema.define(version: 20140309124155) do
     t.string   "provider"
     t.string   "uid"
     t.string   "name"
+    t.string   "token"
+    t.string   "token_secret"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree

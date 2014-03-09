@@ -46,5 +46,6 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 gem 'devise'
-require 'omniauth-twitter'
+gem 'omniauth-twitter'
 gem 'omniauth' 
+gem 'twitter'

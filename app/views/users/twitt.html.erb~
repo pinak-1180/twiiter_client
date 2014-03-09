@@ -1,0 +1,6 @@
+<h2> Post a tweet </h2>
+
+<%= form_tag "#" %>
+<%= text_area_tag nil %>
+<%= submit_tag "Post a tweet" %>
+<% end  %> 

@@ -48,3 +48,7 @@ gem 'spring',        group: :development
 gem 'devise'
 gem 'omniauth-twitter'
 gem 'omniauth' 
+gem 'twitter'
+gem 'pg', group: :production
+gem 'exception_notification'
+gem 'configatron', '2.13.0'
